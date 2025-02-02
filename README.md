@@ -11,5 +11,5 @@ This repo is a sample example to interact with js api from dart side,using js in
  - When the menu is open, the background should dim while the button and menu remain highlighted.
  - Clicking outside the menu should close it, and clicking the menu buttons should perform the corresponding action and close the menu.
 
-# Sample Vide of the result
+# Sample Video of the result
 [Screencast from 2025-02-02 15-53-30.webm](https://github.com/user-attachments/assets/69d133f6-3b55-438b-b336-f84d8ea52771)
