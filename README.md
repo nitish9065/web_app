@@ -1,16 +1,12 @@
-# webelements
+# Flutter Web app to interact with JS API
 
-A new Flutter project.
+This repo is a sample example to interact with js api from dart side,using js interlop concept.
 
-## Getting Started
+# Requirements :
+1. URL Input Field and Image Display, Create an input field for a URL and a button. When the button is clicked, an image should appear in the center of the application using an HTML `< img >` element (not a Flutter `Image` widget). Double-clicking on the image should toggle the browser's fullscreen mode. Use JS functions called directly from Dart for this functionality.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. "Plus" Button and Context Menu:
+ Add a button with a "Plus" icon to the bottom-right corner of the screen.
+ - Clicking on this button should display a context menu with "Enter fullscreen" and "Exit fullscreen" buttons above it.
+ - When the menu is open, the background should dim while the button and menu remain highlighted.
+ - Clicking outside the menu should close it, and clicking the menu buttons should perform the corresponding action and close the menu.
