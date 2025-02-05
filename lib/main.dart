@@ -7,8 +7,11 @@ import 'dart:ui_web' as ui;
 
 import 'package:webelements/context_util.dart';
 
+/// Interact with js api to enter into full screen mode
 @JS()
 external void _exitFullScreen();
+
+/// Interact with js api to exit full screen mode 
 @JS()
 external void _enterFullScreen();
 
